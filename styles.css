@@ -38,3 +38,10 @@ table#categoriesHomeStyle {
 th, td {
     width: 100px;
 }
+
+.reviewtext {
+    float: right;
+    width: 200px;
+    margin-right: 300px;
+    
+}
