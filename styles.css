@@ -10,3 +10,31 @@
     text-align: center;
     color: white;
 }
+
+.movieposter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.description {
+    text-align: center;
+    width: 500px;
+}
+
+#categoriesHome {
+    color:goldenrod;
+    width: 200px;
+    float: left;
+    margin-left: 200px;
+}
+
+table#categoriesHomeStyle {
+    padding: 5px;
+    color: goldenrod;
+}
+
+th, td {
+    width: 100px;
+}
