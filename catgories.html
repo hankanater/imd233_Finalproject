@@ -22,7 +22,7 @@
       h2 {color: white;}
       p {color: white; text-align: center;}
     </style>
-       <style>
+       <style>                      /*This style is used by the category section*/
         .collapsible {
           background-color: #777;
           color: white;
@@ -119,8 +119,8 @@
               </div>
           </div>
         
-        <script>
-          var coll = document.getElementsByClassName("collapsible");
+        <script>                                                              //This makes the categories collapsable
+          var coll = document.getElementsByClassName("collapsible");          //For some reason it works when added here but not the external JS file
           var i;
           
           for (i = 0; i < coll.length; i++) {
